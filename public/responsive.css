@@ -1,0 +1,980 @@
+@charset "utf-8";
+
+@media(max-width:600px) {
+    .cotn {
+        padding: 20px;
+    }
+
+    .bbimg {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #mainhead img.img-fluid {
+        display: block;
+        margin: auto;
+    }
+
+    .fixed-top {
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        width: 100%;
+    }
+
+    .quickenquiry img {
+        display: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .quickenquiry h1 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .quickenquiry p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .quickenquiry h4 {
+        font-family: Plus Jakarta Sans;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 42px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .headtext h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: Plus Jakarta Sans;
+        line-height: 50px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+
+    .headtext hr {
+        background-color: #f02c2c;
+        width: 15%;
+        height: 1px;
+    }
+
+    .headtext h4 {
+        font-family: Plus Jakarta Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #F02C2C;
+    }
+
+    .service img.img-fluid {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ourteam {
+        background: #FFF7F7;
+        border-radius: 11px;
+        padding: 23px 40px;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .blogsection {
+        margin-bottom: 20px;
+    }
+
+    #testimonial i.fa.fa-quote-left {
+        font-size: 30px;
+        position: relative;
+        top: 0;
+    }
+
+    .slide {
+        transition: filter .4s;
+        margin: 0px;
+    }
+
+    a.navbar-brand {
+        width: 70%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #mainhead {
+        height: 120vh;
+    }
+
+    .welcometext p {
+        font-size: 14px;
+    }
+
+    .innermainhead nav#banner {
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    #aboutsection h4 {
+        margin-top: 10px;
+    }
+
+    #aboutsection p {
+        margin-bottom: 10px;
+    }
+
+    #countsection p {
+        margin-bottom: 20px;
+    }
+
+    #index2nav .welcometext h1 {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-family: Plus Jakarta Sans;
+        font-size: 29px;
+        line-height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 0.2rem 0.4rem;
+        border: 0px;
+        outline: none;
+    }
+
+    i.fa.fa-bars.fa-1x {
+        font-size: 32px;
+        color: #969697;
+    }
+
+    #index2nav .welcometext p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 20px;
+        text-align: left;
+        color: #656565;
+    }
+
+    #index2nav .welcometext button {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #index2nav .navbar-nav .nav-link {
+        color: #2D2D2D;
+        font-size: 16px;
+        padding: 15px 20px;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        text-transform: capitalize;
+        width: fit-content;
+    }
+}
+
+@media(min-width:1250px) and (max-width:1500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #index2nav .navbar-nav .nav-link {
+        color: #2D2D2D;
+        font-size: 14px;
+        padding: 15px 13px;
+        font-family: Plus Jakarta Sans;
+        font-weight: 300;
+    }
+
+    .category-card1 h5 {
+        font-size: 16px;
+    }
+
+    p {
+        line-height: 24px !important;
+        font-size: 14px !important;
+    }
+
+    ul.listtags li {
+        font-size: 14px !important;
+        line-height: 24px;
+    }
+
+    .btn-template {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact {
+        background: #F02C2C;
+        color: white !important;
+        border-radius: 41px;
+        padding: 10px 15px !important;
+        transition: all 200ms ease-in-out;
+    }
+
+    .social h3 {
+        line-height: 32px;
+    }
+
+    .timesection h5 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .timesection h4 {
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .timesection h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .timesection h4.we-make__progress-title {
+        font-size: 16px;
+        line-height: 45px;
+    }
+
+    #whysection .headtext {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .welcome-one__trusted h2 span {
+        font-size: 30px;
+        line-height: 36px !important;
+    }
+
+    .welcome-one__trusted h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-text .number-title .title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #index2nav .welcometext h1 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: Plus Jakarta Sans;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .rs-breadcrumbs .breadcrumbs-inner .page-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .dropdown-menu {
+        font-size: 14px;
+    }
+
+    .navcard h6 {
+        font-size: 12px;
+    }
+
+    .breadcrumbs-inner .ingrid h3 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .domainpoint h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .services-item h3 {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .culture .pl-100 {
+        padding-left: 30px;
+    }
+
+    .quickfacts .rellist li {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .breadcrumbs-inner .ingrid h5 {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    #index2nav .welcometext p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 20px;
+        text-align: justify;
+        color: #656565;
+    }
+
+    #index2nav .welcometext button {
+        background-color: white;
+        border: 0px;
+        padding: 10px 40px;
+        border-radius: 41px;
+        font-size: 16px;
+        font-weight: 600;
+        background: #F02C2C;
+        color: white;
+    }
+
+    .headtext h4 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #F02C2C;
+    }
+
+    .headtext h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: Plus Jakarta Sans;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .webdesign .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+        height: 236px;
+        max-width: 490px;
+        width: 100%;
+        transition: 8s all ease;
+    }
+
+    .webdesign .carousel-inner {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        top: -386px;
+        max-width: 419px;
+        right: 89px;
+    }
+
+    .btn-theme {
+        font-size: 16px;
+    }
+
+    #indexnav .welcometext h1 {
+        font-size: 30px !important;
+        line-height: 35px;
+    }
+
+    #indexnav .welcometext h2 {
+        font-size: 26px;
+    }
+
+    .servicess ul li a {
+        font-size: 25px;
+    }
+
+    .servicess {
+        height: 109vh;
+    }
+
+    .brandbox .content h5 {
+        font-size: 16px;
+    }
+
+    .btn-template1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    ul.linklist li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .homespecialize ul.linklist li {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .sublink1 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    .factpad {
+        padding: 30px 0 !important;
+    }
+
+        .factpad .headtext h2 {
+            line-height: 50px !important;
+        }
+
+    .service-card-7 .inner .content .title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .adv h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .sublink {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .choose-content-area .choose-text i {
+        top: -4px;
+    }
+
+    .service-card-8 .inner .content .title {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .rs-services.main-home .services-item .services-text .title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .careerbox h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .headtext h3 {
+        font-size: 22px;
+    }
+
+    .contactdiv h3 {
+        font-size: 22px;
+    }
+
+    .contactdiv p {
+        line-height: 24px !important;
+        font-size: 12px !important;
+    }
+
+    .work h5 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #careerform label {
+        line-height: 24px;
+    }
+
+    #careerform button {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #career h2 {
+        font-size: 26px !important;
+        line-height: 36px !important;
+    }
+
+    .headtext p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #656565;
+    }
+
+    #index2nav .welcometext button:hover {
+        background-color: #262626;
+        border: 0px;
+        padding: 10px 40px;
+        border-radius: 41px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .headtext button {
+        padding: 10px 40px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .blogsection h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #testimonial label {
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    #indexnav .welcometext h6 {
+        color: #858585;
+        font-size: 19px !important;
+    }
+
+    ul.industries-list li {
+        font-size: 16px;
+    }
+
+    .webdesign-section .welcometext h4 {
+        font-weight: 800;
+        margin-bottom: 10px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        line-height: 30px;
+        font-size: 19px;
+    }
+
+    .webdesign-section .welcometext h1 {
+        
+        line-height: 45px !important;
+    }
+
+    .solutionsnav .nav .nav-link {
+        
+        font-size: 16px;
+        padding: 11px 10px;
+    }
+    .web-solutions .tab-content {
+        padding: 30px 50px !important;
+    }
+    .parll-section .solution-box h3 {
+        
+        font-size: 27px;
+    }
+
+    .google-dm {
+        right: -15px !important;
+    }
+    .award-status {
+        left: -19px;
+        bottom: 55px;
+        position: absolute;
+    }
+
+    .vec3{
+        display: none;
+    }
+
+    .contacticon i {
+        padding: 12px 14px;
+    }
+
+    .contacticon {
+        height: 41px;
+        font-size: 16px !important;
+        width: 41px;
+        line-height: 41px;
+    }
+
+    .review-logo {
+        height: 50px;
+    }
+
+    .disflex p {
+        margin: 0px 30px !important;
+    }
+
+    footer h4 {
+        font-family: Plus Jakarta Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    footer p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+        color: #ccc;
+        margin-bottom: 2px;
+    }
+
+    footer i.fa {
+        color: #ccc;
+        font-size: 20px;
+        padding: 0px 20px 0px 0px;
+    }
+}
+
+.contacticon i {
+    color: #fff;
+}
+
+@media (min-width: 1366px) and (max-width: 1400px) {
+    .container {
+        max-width: 1250px !important;
+    }
+}
+
+@media (max-width:400px) {
+    #indexnav .welcometext h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    #indexnav .welcometext h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+
+@media(max-width: 820px){
+    .navbar-toggler {
+        padding: 0.2rem 0.4rem;
+        border: 0px;
+        outline: none;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: block !important;
+    }
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: block !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: 100%;
+    }
+
+    #index2nav .navbar-nav .nav-link.contact {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .collapse:not(.show) {
+        display: none !important;
+       
+    }
+}
+
+@media (min-width: 641px) and (max-width: 820px) {
+
+    .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .rs-breadcrumbs .breadcrumbs-inner .page-title {
+        font-size: 37px;
+        margin-top: 75px;
+    }
+
+    .servebox {
+        margin-bottom: 30px;
+        margin-left: 0px;
+        transition: .3s ease;
+        background: #fff;
+        border-radius: 15px;
+    }
+
+    .vec1, .vec3, .vec2 {
+        display: none
+    }
+
+    .advsection .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .weservesection .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .svg-wave {
+        position: absolute;
+        margin-top: -27px;
+        width: 100%;
+    }
+
+    .facts .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .welcome-one__right {
+        margin-top: 0px;
+    }
+
+    .model {
+        display: none;
+    }
+
+    .included .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .architecture .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .factbox1 .imgsection img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .fact1 .headtext hr {
+        display: none
+    }
+
+    #about1 .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .category-card1 h5 {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+
+    .factbox1 .fact1 {
+        padding: 50px 15px;
+    }
+
+    .google-dm {
+        right: 13px !important;
+    }
+
+    .dmsect .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+    .dmsect .adv h3 {
+        font-size: 18px;
+    }
+
+    .welcome .deskhide {
+        display: none;
+    }
+
+    .welcome .mobhide {
+        display: block;
+    }
+
+
+    .mail-dm {
+        top: 36px !important;
+    }
+
+    .reasons-one__shape-2 {
+        display: none
+    }
+
+    .reasons-one__shape-3 {
+        display: none;
+    }
+
+    .domainsection .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+        .domainsection .col-md-3:nth-child(odd) {
+            border-right: none;
+        }
+
+    #videosection .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .profile img.expert {
+        position: inherit;
+        width: 29%;
+    }
+
+    .portfolio .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .tabsection .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .tab-content .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #contactus .col-md-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #contactus .col-md-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .blog .col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    i.fa.fa-bars.fa-1x {
+        font-size: 32px;
+        color: #969697;
+    }
+
+    #testimonial .col-md-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #testimonial .col-md-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #testimonial .carousel-control-prev, #testimonial .carousel-control-next {
+        width: 10% !important;
+    }
+
+    .card .carousel-caption {
+        margin-bottom: 50px;
+    }
+
+    .advsection .col-md-4:nth-child(1) {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contactform .col-md-6, #careerform .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .typemarket .check-inline {
+        padding: 13px 21px;
+    }
+
+    .ctr {
+        display: block;
+        text-align: center;
+    }
+
+        .ctr a {
+            margin-top: 20px;
+        }
+
+    .timesection h4.we-make__progress-title {
+        font-size: 15px;
+    }
+
+    .welcome-one__img-box {
+        margin-bottom: 50px;
+    }
+
+    .sublink {
+        font-size: 23px !important;
+        line-height: 40px !important;
+    }
+    .timer{
+        display: none !important
+    }.reasons-one-img-box-bg {
+        display: none
+    }
+
+    .rs-breadcrumbs1 .breadcrumbs-inner {
+        background: #0000006b;
+    }
+
+    .ecomm .adv {
+        margin-bottom: 0;
+        margin-top: 88px;
+    }
+}
