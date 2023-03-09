@@ -1178,6 +1178,7 @@ ul.running_text {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 20px !important;
         padding-left: 20px !important;
+        font-size: 17px !important;
         color: #2D2D2D !important;
         font-weight: 600 !important;
         font-family: 'Plus Jakarta Sans', sans-serif !important;
