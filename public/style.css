@@ -1166,12 +1166,39 @@ ul.running_text {
 }
 
 #index2nav .navbar-nav .nav-link {
-    color: #2D2D2D;
+    color: #2D2D2D !important;
     font-size: 17px;
-    padding: 10px 20px;
+    padding: 10px 20px !important;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        color: #2D2D2D !important;
+        font-weight: 600 !important;
+        font-family: 'Plus Jakarta Sans', sans-serif !important;
+    }
+
+        .navbar-expand-md .navbar-nav .nav-link.whatsapp, .navbar-expand-md .navbar-nav .nav-link.contacticon {
+            padding: 0 !important;
+        }
+
+        .navbar-expand-md .navbar-nav .nav-link.contact {
+            color: #fff !important;
+        }
+
+    .dropdown-item {
+        padding: 10px 16px !important;
+    }
+
+        .dropdown-item.active, .dropdown-item:active {
+           
+            background-color: #f8f9fa !important;
+        }
 }
 
 #indexnav .welcometext h4 {
