@@ -112,7 +112,7 @@ const Navbar = () => {
 
                                     <div class='navcard'>
                                         <img src={adicon} alt='Brand Advertisements' class='img-fluid'></img>
-                                            <h6>Brand Identity & Advertisements</h6>
+                                            <h6>Brand Identity & Advertisementss</h6>
                                             <span class='desc'>Brand Advertisements</span>
                                     </div>
                                 </a>
