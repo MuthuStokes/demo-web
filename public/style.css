@@ -795,9 +795,15 @@ a:hover {
 }
 
 .shrink {
-    background-color: #f02c2c;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 40px rgb(0 0 0 / 20%);
+}
+
+section#testimonial {
+    padding-top: 100px;
+    background-color: #f2f4f8;
 }
 
 .innermainhead {
