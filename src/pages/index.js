@@ -2,7 +2,7 @@
 import React from 'react';
 
 import bannerImg from './img/banner2.webp';
-import bannerVid from './img/search-bar.webm';
+
 
 const Home = () => {
     return (
@@ -870,8 +870,168 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="parll-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6"></div>
+                        <div className="col-md-6">
+                            <div className="solution-box">
+                                <h3>
+                                    We Help Businesses to grow and scale with our digital transformation
+                                    solutions
+                                </h3>
+                                <hr />
+                                <p>
+                                    As a leading digital agency, we transform traditional businesses
+                                    running age-old methodologies by utilising automation and the latest
+                                    technologies. We work closely with our clients to understand their
+                                    business core, unique challenges and come up with the right
+                                    solutions that are measurable and effective.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section id="clients">
+                <div className="container">
+                    <div className="headtext text-center">
+                        <h2>Our Valuable Clients</h2>
+                        <hr />
+                    </div>
+                </div>
+                <div className="container" data-aos="zoom-in" data-aos-duration={3500}>
+                    <section className="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal">
+                        <div className="customer-logos slider">
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/ramakrishna.png')}
+                                            className="img-fluid"
+                                            alt="Ramakrishna Mission"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/drdo.png')} className="img-fluid" alt="DRDO" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/repco.png') } className="img-fluid" alt="Repco" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/sofeton.png')} className="img-fluid" alt="Sofeton" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/simens.png')} className="img-fluid" alt="Simens" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/pepsico.png')} className="img-fluid" alt="Pepsico" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/arun-excello.png')}
+                                            className="img-fluid"
+                                            alt="Arun Excello"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/buhari.png')} className="img-fluid" alt="Buhari" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/swisscar.png')}
+                                            className="img-fluid"
+                                            alt="Swiss Rent a Car"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/fusionvr.png') } className="img-fluid" alt="FusionVR" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/podhigai-ads.png')}
+                                            className="img-fluid"
+                                            alt="Podhigai Ads"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/jc-residency.png')}
+                                            className="img-fluid"
+                                            alt="JC Residency"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/bapalal.png')}
+                                            className="img-fluid"
+                                            alt="Bapalal Jewllers"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/shenbaga.png')}
+                                            className="img-fluid"
+                                            alt="Shenbaga Hotel"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/truly-south.png')}
+                                            className="img-fluid"
+                                            alt="Truly South"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/curry-story.png')}
+                                            className="img-fluid"
+                                            alt="Curry Story"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/hanson-food.png')}
+                                            className="img-fluid"
+                                            alt="Hanson Food"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/venus.png')}
+                                            className="img-fluid"
+                                            alt="Venus K Equipments"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/divaz.png')}
+                                            className="img-fluid"
+                                            alt="Divaz Consulting"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img src={require('./img/clients/vktpl.png')} className="img-fluid" alt="VKTPL" />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/pleasant-days.png')}
+                                            className="img-fluid"
+                                            alt="Pleasant Days"
+                                        />
+                                    </div>
+                                    <div className="slide-in-right slide">
+                                        <img
+                                            src={require('./img/clients/chefs-cofee.png')}
+                                            className="img-fluid"
+                                            alt="Chefs Coffee"
+                                        />
+                                    </div>
+                                </div>
+                    </section>
+                </div>
+            </section>
 
+            
 
 
         </div>

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.orgimg').hide();
-    AOS.init();
+    
     $(window).scroll(function () {
         
        $('.orgimg').show();
