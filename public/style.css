@@ -790,6 +790,10 @@ footer {
     box-shadow: none;
 }
 
+.fixed-top {
+    background: #fff !important;
+}
+
 a:hover {
     color: #262626;
 }
