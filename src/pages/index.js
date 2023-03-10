@@ -622,7 +622,7 @@ const Home = () => {
                             <div className="headtext text-left" id="testimonials">
                                 <h2>What our Customers say about us</h2>
                                 <img
-                                    src="img/google-reviews-logo.png"
+                                    src={require('./img/google-reviews-logo.png')}
                                     alt=""
                                     className="review-logo"
                                     style={{ margin: "20px 0" }}

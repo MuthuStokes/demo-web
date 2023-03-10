@@ -8,8 +8,7 @@ import pdicon from './img/icons/packaging-designs.png';
 import webicon from './img/icons/webdesign.png';
 import adicon from './img/icons/advertisements.png';
 import React from "react";
-import { Nav, NavLink, NavMenu }
-    from "./NavbarElements";
+
 
 const Navbar = () => {
     return (
