@@ -6103,7 +6103,7 @@ button:focus {
 }
 
 .rs-breadcrumbs.img2.branding {
-    background-image: url(img/branding-bg.png),linear-gradient(to right, #952525,#e46a21);
+    background-image: url("./img/branding-bg.png"),linear-gradient(to right, #952525,#e46a21);
 }
 
 .rs-breadcrumbs.img2.digital {

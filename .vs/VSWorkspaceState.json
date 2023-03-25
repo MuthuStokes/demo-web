@@ -2,13 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\img",
     "\\src",
-    "\\src\\Components",
-    "\\src\\Components\\Navbar",
-    "\\src\\Components\\Navbar\\img",
+    "\\src\\components",
+    "\\src\\components\\Navbar",
+    "\\src\\components\\Navbar\\img",
     "\\src\\pages",
-    "\\src\\pages\\img"
+    "\\src\\pages\\img",
+    "\\src\\pages\\img\\industries"
   ],
-  "SelectedNode": "\\src\\index.js",
   "PreviewInSolutionExplorer": false
 }
